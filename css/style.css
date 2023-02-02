@@ -4,10 +4,72 @@
     margin: 0%;
     box-sizing: border-box;
 }
+img {
+    max-width: 30%;
+}
 /* /RESET */
 
 /* COMMON */
 body {
     font-family: 'Fredoka', sans-serif;
 }
+header {
+    text-align: center;
+}
+
 /* /COMMON */
+
+/* HEADER */
+#title {
+    padding: 3rem 3rem 6rem 3rem;
+    color: #E53170;
+    font-size: 45px;   
+}
+/* /HEADER */
+
+/* MAIN */
+#sub-title {
+    text-align: center;
+    color: #0F0E17;
+}
+.container {
+    margin: auto;
+    max-width: 80%;
+}
+.container .grid {
+    width: 100%;
+    margin-top: 4rem;
+}
+.grid::after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+.profile {
+    width: calc((100% / 3) - (3% / 3));    
+    /* border: 1px solid fuchsia; */
+    float: left;
+    margin: 0 1% 1% 0;
+    background-color: #0F0E17;
+    color: white;
+}
+.profile .text {
+    float: right;
+    padding: 3% 15% 0% 4%;
+    line-height: 2rem;
+    font-size: 100%;
+    width: 70%;
+}
+.name {
+    font-weight: bold;
+    color: #ECFFFE;
+    font-size: 20px;
+}
+.role {
+    font-size: 16px;
+}
+a {
+    font-size: 14px;
+    color: #00C0F3;
+}
+/* /MAIN */
